@@ -49,6 +49,8 @@ h3{
 .bookgrid{
     display: grid;
     max-width: 100%;
+    gap: 16px;
+    
     grid-template-columns: auto auto auto;
     margin-bottom: 30px;
 }
@@ -56,6 +58,14 @@ h3{
 img {
     width: 100%;
     height: auto;
+}
+
+figure {
+    margin: 0%;
+}
+
+figcaption {
+    margin: 0%;
 }
 
 
