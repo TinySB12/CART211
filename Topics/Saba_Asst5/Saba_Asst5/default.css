@@ -18,13 +18,21 @@ main img {
     
 }
 
-main p{
+main p {
     text-align: left;
     margin-bottom: 20px;
 }
 
+.story-container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
 .image-container {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -44,6 +52,7 @@ main p{
 .img6 {
     grid-row-start: 2;
     grid-row-end: 4;
+    object-position: left;
 }
 .img7 {
     grid-row-start: 2;
@@ -63,7 +72,7 @@ main p{
 }
 
 #wrapper {
-    width: 80;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -72,7 +81,7 @@ main p{
 }
 
 footer {
-    width: 600px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     font-size: 1rem;
